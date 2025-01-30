@@ -1,16 +1,18 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+    color: #0ff;
     text-align: center;
 }
 
 .container {
     max-width: 600px;
     margin: 50px auto;
-    background: white;
+    background: rgba(20, 20, 20, 0.9);
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 15px rgba(0, 255, 255, 0.8);
+    border: 1px solid #0ff;
 }
 
 .question {
@@ -19,20 +21,25 @@ body {
 }
 
 button {
-    background: #007bff;
+    background: #ff0099;
     color: white;
     border: none;
     padding: 10px;
     cursor: pointer;
     border-radius: 5px;
+    transition: 0.3s ease;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 button:hover {
-    background: #0056b3;
+    background: #ff6600;
+    box-shadow: 0px 0px 10px #ff0099;
 }
 
 #result {
     margin-top: 20px;
     font-size: 18px;
     font-weight: bold;
+    color: #0ff;
 }
